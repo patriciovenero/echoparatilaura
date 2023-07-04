@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Smart Parking</string>
+    <string name="screen1">Bienvenido Admin</string>
+    <string name="screen2">Demás podrás observar un listado de cuantas empresas hay:</string>
+    <string name="screen3">Cuáles son sus capacidades</string>
+    <string name="screen1desc">¡Bienvenido al exclusivo mundo de nuestra aplicación móvil para administradores!
+Estamos encantados de darte la bienvenida a esta plataforma diseñada especialmente para ti</string>
+    <string name="screen2desc">
+    En este aplicativo, se aborda la cantidad de empresas existentes</string>
+    <string name="screen3desc">Ademas se mostrara los estacionamiento y estado de cada empresa</string>
+    <string name="startDesc">Bueno sin mas que decir te damos la bienvenida a nuestro aplicativo movil, DISFRUTA</string>
+    <string name="urlapi">http://172.23.4.147:8000/api</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="aaronname">Apaza Barra Aaron Daniel</string>
+    <string name="andrename">Garcia Aragon Andre Martin</string>
+    <string name="dantename">Rodriguez Chambi Dante Samuel</string>
+    <string name="patricioname">Venero Medina Patricio</string>
+    <string name="jaimename">Rodriguez Echevarria Jaime Andre</string>
+    <string name="aaronrol">Frontend developer trainee</string>
+    <string name="andrerol">Devops engineer trainee</string>
+    <string name="danterol">Backend developer trainee</string>
+    <string name="patriciorol">Android developer trainee</string>
+    <string name="jaimerol">Patrocinador(invercion de 10 soles)</string>
+    <string name="aarondes">Soy un apasionado desarrollador fullstack en constante búsqueda de soluciones creativas y eficientes. Mi enfoque se basa en aprovechar las tecnologías más vanguardistas para impulsar proyectos innovadores y transformadores</string>
+    <string name="andredes">Me caracteriza por mi habilidad para adaptarme rápidamente a entornos cambiantes y asumir nuevos desafios con entusiasmo. Mi capacidad para trabajar tanto de forma autónoma como en equipo me permite colaborar de manera efectiva con profesionales de diversas disciplinas, logrando resultados excepcionales.</string>
+    <string name="dantedes">Soy un desarrollador de Backend adaptable y entusiasta, capaz de asumir nuevos desafíos con facilidad. Me destaco por aprender rápidamente y trabajar efectivamente en equipo. Con habilidades en lógica de negocio, gestión de bases de datos y optimización de rendimiento, logro resultados excepcionales en cada proyecto.</string>
+    <string name="patriciodes">Más allá de mi experiencia técnica, me distingo por mi constante deseo de aprendizaje y mejora continua. Siempre estoy explorando nuevas herramientas y frameworks para montenerme al tanto de las últimas tendencias en el desarrollo de software. Estoy comprometido en expandir mis conocimientos y habilidades para superar las expectativos y entregar soluciones de calidad a codo</string>
+    <string name="jaimedes">Patrocinador(invercion de 10 soles)</string>
+    <string name="aarongithub">https://github.com/aaronbarra040998</string>
+    <string name="andregithub">https://github.com/andregarci</string>
+    <string name="dantegithub">https://github.com/danterodriguezchambi</string>
+    <string name="patriciogithub">https://github.com/patriciovenero</string>
+    <string name="jaimegithub">no tiene</string>
+    <string name="aaroncorreo">aaron.apaza@tecsup.edu.pe</string>
+    <string name="andrecorreo">andre.garcia@tecsup.edu.pe</string>
+    <string name="dantecorreo">dante.rodriguez.c@tecsup.edu.pe</string>
+    <string name="patriciocorreo">patricio.venero@tecsup.edu.pe</string>
+    <string name="jaimecorreo">jaime.rodriguez@tecsup.edu.pe</string>
+</resources>

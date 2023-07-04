@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_empresa"
+            android:icon="@drawable/empresa"
+            android:title="Empresa"/>
+        <item
+            android:id="@+id/nav_estacionamiento"
+            android:icon="@drawable/coche_estacionado"
+            android:title="Estacionamiento"/>
+        <item
+            android:id="@+id/nav_estado"
+            android:icon="@drawable/estados_financieros"
+            android:title="estado"/>
+        <item
+            android:id="@+id/nav_miperfil"
+            android:icon="@drawable/usuario"
+            android:title="Mi Perfil"/>
+
+
+        <item
+            android:id="@+id/nav_ayuda"
+            android:icon="@drawable/ayudar"
+            android:title="Sobre Nuestro Proyecto"/>
+
+        <item
+            android:id="@+id/nav_team"
+            android:icon="@drawable/grupo__1_"
+            android:title="Nuestro Equipo"/>
+
+    </group>
+    <item
+        android:title="Adicionales">
+
+        <menu>
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/casa"
+                android:title="home"/>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/cerrar_sesion"
+                android:title="Logout"/>
+        </menu>
+
+    </item>
+
+</menu>

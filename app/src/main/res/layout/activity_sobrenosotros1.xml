@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    tools:context=".sobrenosotros1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:id="@+id/toolbar"
+            android:elevation="4dp"
+            android:background="@color/lavender"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+        <!-- Texto 1 -->
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:gravity="center"
+            android:text="Sobre Nosotros"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:textStyle="bold"/>
+
+        <!-- Texto 2 -->
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Nuestra aplicación para Android es el punto de encuentro para descubrir cómo revolucionamos el concepto de estacionamiento con nuestra solución de Smart Parking. A través de un diseño moderno y funcional, presentamos cómo nuestra tecnología inteligente optimiza la gestión del estacionamiento, mejorando la experiencia tanto para los conductores como para los administradores. Nuestra plataforma intuitiva y escalable, disponible en dispositivos Android, brinda soluciones eficientes y seguras para maximizar la utilización de los espacios y reducir los tiempos de búsqueda de estacionamiento."
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+
+        <!-- LottieAnimationView -->
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="234dp"
+            android:layout_height="249dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/aobutus1222"
+            android:layout_gravity="center"/>
+
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/fragment_container"/>
+
+        <!-- Aquí se agrega el ListView -->
+
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/nav_view"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/nav_menu"
+        android:background="@drawable/menubkg"
+        app:itemIconTint="@color/lavender"
+        app:itemTextColor="@color/lavender"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>
